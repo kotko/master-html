@@ -1,0 +1,254 @@
+/*
+  Start block header.
+*/
+.nv-header__holder-logo
+  width 99px
+  height 99px
+  position absolute
+  left -15px
+  top -15px
+  z-index 2012
+  &:after
+    display: block;
+    clear: both;
+    content: ''
+.nv-header__holder-logo__link
+  display block
+.nv-header
+  margin 20px 0 0 0
+  width 100%
+  height 70px
+  background-color #70c41d
+  background-size cover
+  background-size 100%;
+  background-image -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #14870f), color-stop(100%, #70c41d))
+  background-image -moz-linear-gradient(bottom, #14870f 0%, #70c41d 100%)
+  background-image -webkit-linear-gradient(bottom, #14870f 0%, #70c41d 100%)
+  background-image linear-gradient(to top, #14870f 0%, #70c41d 100%)
+  -moz-box-shadow 0 0 5px rgba(9, 69, 0, 0.75), inset 0 1px 1px rgba(175, 255, 170, 0.5)
+  -webkit-box-shadow 0 0 5px rgba(9, 69, 0, 0.75), inset 0 1px 1px rgba(175, 255, 170, 0.5)
+  box-shadow 0 0 5px rgba(9, 69, 0, 0.75), inset 0 1px 1px rgba(175, 255, 170, 0.5)
+  -webkit-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+
+.nv-header__holder-meta
+  height 70px
+.nv-header__holder-meta__list
+  padding 0
+  text-align right
+  margin 0
+.nv-header__holder-meta__list-item__link
+  display block
+.nv-header__holder-meta__list-item
+  display inline-block
+  vertical-align middle
+  // position relative
+  margin 0 0 0 12px
+.nv-header__holder-meta__list-item__lang-list
+  padding 0 30px 0 0
+  margin 0
+  .nv-header__holder-meta__list-item__lang-list__item
+    display block
+    line-height 15px
+  .nv-header__holder-meta__list-item__lang-list__item-link
+    color #f3f3f3
+    font-size 13px
+    &:hover
+      // text-decoration none
+      color rgba(255, 255, 255, 0.70)
+    &:focus
+      // text-decoration none
+      color #fff
+.language-chooser.language-chooser-text.qtranxs_language_chooser
+  padding 0 30px 0 0
+  margin 0
+  li
+    display block
+    line-height 15px
+    a
+      color rgba(243, 243, 243, 0.45)
+      font-size 13px
+      &:hover
+        // text-decoration none
+        color rgba(255, 255, 255, 0.70)
+      &:focus
+        // text-decoration none
+        color #fff
+  .active a
+    color #fff
+.nv-header__search__close-btn
+  position: absolute;
+  right: 50px
+  top 50px
+  display: block;
+  color #fff
+  font-size 40px
+  &:hover
+    color rgba(255, 255, 255, 0.70)
+  &:focus
+    color rgba(255, 255, 255, 0.70)
+.nv-header__search__container
+  position: relative;
+  display: block;
+  z-index: 2050;
+  width: 100%;
+.nv-header__search__list-result .row
+  margin-bottom 10px
+.nv-header__search__list-result__item
+  border-bottom: 1px solid #cfcfcf
+.nv-header__search__list-result
+  margin 20px 0 0 0
+  span
+    display: block;
+    top: 0
+    right 0
+    color #cfcfcf
+    font-size 12px
+  a
+    font-size 16px
+    line-height 0
+    color #fff
+    text-decoration: none
+  p
+    color #cfcfcf
+    font-size 13px
+    padding 0
+    margin 0
+.nv-header__search__container-holder
+  top -1999px
+  overflow: hidden
+  transition: all 0.3s
+
+
+  background: rgba(0, 0, 0, 0.70);
+  height: 100%;
+  width 100%
+  position: fixed;
+  // top 0
+  left: 0;
+  transition all 0.6s
+  display block
+  right 0
+  margin auto
+.nv-header__search__container-holder__position
+  position: absolute;
+  top: 20%;
+  right 0
+  left 0
+  width 60%
+  height 40px
+  margin: auto;
+.nv-header__holder-meta__list-item__search
+  opacity 1
+  // &:hover > .nv-header__holder-meta__list-item__search-form
+  //   width 200px
+  // &:focus > .nv-header__holder-meta__list-item__search-form
+  //   width 200px
+.nv-header__holder-meta__list-item__search-form
+  display: block
+  div
+    display: block
+    // position: absolute;
+    // top: 10%;
+    // // bottom 0
+    // right 0
+    // left 0
+    // width 60%
+    // height 40px
+    // margin: auto;
+    .fa
+      position: absolute;
+      top 14px
+      bottom 0
+      right 0
+      height 40px
+      width 22px
+      color #fff
+      font-size 20px
+  input
+    // height 100%
+    padding 10px 0 10px 0
+    display block
+    // margin auto
+    // margin 0 -30px 0 15px
+    z-index: 2051
+
+    margin auto
+    background none
+    border 0
+    border-bottom 1px solid #fff
+    border-radius 0
+    color #fff
+    font-size 25px
+    letter-spacing 0.4px
+    // font-family "HelveticaNeue-Regular"
+    &::-webkit-input-placeholder
+      color rgba(255, 255, 255, 0.4)
+    &::-moz-placeholder
+      color rgba(255, 255, 255, 0.4)
+    &:-moz-placeholder
+      color rgba(255, 255, 255, 0.4)
+    &:-ms-input-placeholder
+      color rgba(255, 255, 255, 0.4)
+    &:focus
+      background none
+      border 0
+      color #fff
+      border-bottom 1px solid #fff
+      border-radius 0
+.nv-header__search__list-thumb img
+  width 100%
+.nv-header__search__container-holder.is-active
+  // max-height 100%
+  top 0
+  // background: rgba(0, 0, 0, 0.70);
+  // input
+  //   border-bottom 1px solid rgba(255, 255, 255, 0.70);
+.nv-header__holder-meta__list-item__search-link
+  font-size 20px
+  color #fff
+  cursor: pointer;
+  text-decoration none
+  &:hover
+    text-decoration none
+    color rgba(255, 255, 255, 0.70)
+  &:focus
+    text-decoration none
+    color rgba(255, 255, 255, 0.70)
+  border: 0;
+  background: none
+  margin 0
+  padding 0
+  input
+    position: absolute;
+    left: -9999px;
+
+
+@media only screen and (max-device-width : 720px)
+  .nv-header__holder-logo
+    top -5px
+    left: 20px;
+
+  .nv-header__holder-logo
+    width 80px
+  .nv-header__row
+    margin 0
+
+
+
+    // max-height auto
+@media only screen and (max-device-width : 992px)
+  // .nv-header__holder-meta__list-item__search
+  //   display none
+  .nv-header__holder-meta__list-item
+    // margin 0
+  .nv-header__holder-meta__list-item__lang-list
+    padding 0 10px 0 0
+
+
+// nv-header__holder-meta__list-item__search
+/*
+  End block header.
+*/
